@@ -1,0 +1,5 @@
+copy part from 's3://s3-redshift-msk/load/part-csv.tbl' 
+credentials 'aws_access_key_id=ZZZZZZ;aws_secret_access_key=ZZZZZZ'
+csv;
+# credientials will be available on IAM page 
+
